@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa9b6c966b29d724ebc3252b632049e8, type: 3}
+  m_Name: GovDial0
+  m_EditorClassIdentifier: 
+  names:
+  - Man in Black
+  - Agent Smith
+  lines:
+  - Hello, we've never met before but our organisation you can call us the HSG noticed
+    you were running low on funds. My name is Agent Smith.
+  - Our organisation is interested in helping starling cities like yours reach their
+    fullest potential.
+  - ' With a little government oversight that is.'
+  - 'We''ll raise your debt limit, and provide you some cash upfront to help pay
+    for your new project. '
+  - The only thing is, there will be some legislation coming your way soon with our
+    seal on it.  improvements.
+  - We'll expect you to approve this, just some security clauses and such.
+  - We just want to make sure the city is safe and grows at a sustainable rate. I'm
+    sure you understand.
+  - So, what do you say?

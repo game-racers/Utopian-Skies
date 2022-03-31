@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7771619629722319466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7771619629722319460}
+  - component: {fileID: 7771619629722319461}
+  - component: {fileID: 7771619629722319463}
+  - component: {fileID: 7771619629722319462}
+  m_Layer: 0
+  m_Name: CityManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7771619629722319460
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7771619629722319466}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7771619629722319461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7771619629722319466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78639de6d0e7b634ea3afa2db8efe450, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  building: {fileID: 5244854671044186726, guid: 0d8ccbf997e1a87499898808fe43d280,
+    type: 3}
+  offset: {x: 0, y: 0, z: 0}
+  tile: {fileID: 0}
+  previewmat: {fileID: 2100000, guid: 1c4c6d05c68d94647ab16630b0ee7251, type: 2}
+  buildmode: 1
+  previewbuilding: {fileID: 5244854671044186726, guid: 0d8ccbf997e1a87499898808fe43d280,
+    type: 3}
+--- !u!114 &7771619629722319463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7771619629722319466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82248434dbe48a44e9618966fc9fd686, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Happiness: 50
+  Security: 50
+  HappinessBar: {fileID: 0}
+  SecurityBar: {fileID: 0}
+  days: 0
+  seconds: 0
+  dayDisplay: {fileID: 0}
+  HappinessMod: 0
+  SecurityMod: 0
+  money: 0
+  moneyDisplay: {fileID: 0}
+  nextActionTime: 0
+  TaxTime: 0
+  period: 5
+  taxPeriod: 60
+  taxRate: 1
+  businesstaxRate: 2
+  stage: 0
+  style: 0
+  popDisplay: {fileID: 0}
+  maxPopulation: 0
+  populationCount: 0
+--- !u!114 &7771619629722319462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7771619629722319466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd599836e044ec046a46161d7f6aad95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialup: {fileID: 0}
+  dialbox: {fileID: 0}
+  namebox: {fileID: 0}
+  isTalking: 0
+  RegUI: {fileID: 0}
+  dialAnimator: {fileID: 0}

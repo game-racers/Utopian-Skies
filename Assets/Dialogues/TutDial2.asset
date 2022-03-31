@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa9b6c966b29d724ebc3252b632049e8, type: 3}
+  m_Name: TutDial2
+  m_EditorClassIdentifier: 
+  names:
+  - Secretary
+  lines:
+  - Great work, but keep an eye on the fund in the bottom right corner of your HUD!
+  - Being mayor will let you go in debt a little bit but you don't want to push it!
+  - To help earn some of that money back put down a business somewhere they'll also
+    help attract people to your city.
